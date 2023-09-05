@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.plan_card{
+    margin: 20% auto;
+    width: 600px;
+    border:2px solid rgb(215, 215, 215);
+    border-top:none ;
+    font-family: sans-serif;
+    border-radius: 15px;
+}
+
+.plan_card img{
+    border-top-left-radius:15px;
+    border-top-right-radius:15px;
+    width: 100%;
+   
+}
+.plan_info{
+    padding: 35px;
+    margin: 0%;
+    font-size: 25px;
+    font-weight: 400;
+}
+.plan_info p{
+    color: rgb(106, 106, 106);
+    margin-bottom: 15px;
+}
+.plan_info h2{
+    font-weight: 200;
+}
+.plan_info p, h2{
+    padding: 15px 0;
+}
+.plan_info button{
+    width: 200px;
+    background: transparent;
+    font-size: 25px;
+    border-radius: 5px;    
+    padding: 20px 10px;
+}
+.plans{
+    display: flex;
+    align-items: center;
+}
+.plans img{
+    padding-right: 15px;
+    width: 30px;
+}
